@@ -13,7 +13,7 @@ public class ApocalypsePreparation {
         Arrays.stream(scanner.nextLine().split(" ")).map(Integer::parseInt).forEach(firstTextilesQueue::offer);
         Arrays.stream(scanner.nextLine().split(" ")).map(Integer::parseInt).forEach(secondMedicamentsStack::push);
 
-        int patch = 30, bandage = 40, medKit = 100;
+        int patch = 30, bandage = 40, medKit = 20;
         int patchCounter = 0, bandageCounter = 0, medKitCounter = 0;
         HashMap<String, Integer> map = new HashMap<>();
 
